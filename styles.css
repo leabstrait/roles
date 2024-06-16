@@ -29,9 +29,10 @@ body {
     content: "";
     position: absolute;
     top: 0;
-    left: -5%;
+    bottom: 0;
+    left: -10%;
     width: 0%;
-    height: 24vh;
+    height: inherit;
     background-color: rgba(90, 74, 199, 0.8);
     border-right: 40px solid rgba(173, 96, 223, 0.8);
 
