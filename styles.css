@@ -1,6 +1,5 @@
 * {
     /* border: 1px solid red; */
-    /* box-sizing: border-box; */
 }
 
 body {
@@ -30,11 +29,10 @@ body {
     position: absolute;
     top: 0;
     bottom: 0;
-    left: -10%;
+    left: -2em;
     width: 0%;
-    height: inherit;
-    background-color: rgba(90, 74, 199, 0.8);
-    border-right: 40px solid rgba(173, 96, 223, 0.8);
+    background-color: rgba(0, 33, 99, 0.8);
+    border-right: 40px solid #003399;
 
     -webkit-transform-origin: 100% 100%;
     -ms-transform-origin: 100% 100%;
@@ -51,7 +49,7 @@ body {
 
 .role:hover:before {
     width: 70%;
-    height: 70vh;
+    left: 0;
 }
 
 .role:hover {
@@ -96,7 +94,7 @@ img:hover {
 
 .content {
     position: absolute;
-    bottom: 10%;
+    bottom: 5%;
     left: 5%;
 
     width: 40%;
