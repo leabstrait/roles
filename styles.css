@@ -112,7 +112,8 @@ img:hover {
 .content {
     position: absolute;
     left: 5%;
-    top: 50%;
+    top: 40%;
+    bottom: 10%;
 
     width: 50%;
 
